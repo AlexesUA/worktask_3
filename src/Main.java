@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scInput = new Scanner(System.in);
-        double number1, number2, rezult = 0;
+        double number1=0, number2=0, rezult = 0;
         char operand;
         System.out.print("Введіть перше число: ");
         number1 = scInput.nextDouble();
